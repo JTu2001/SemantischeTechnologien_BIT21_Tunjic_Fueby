@@ -1,0 +1,2 @@
+# SemantischeTechnologien
+SPARQL-Query
