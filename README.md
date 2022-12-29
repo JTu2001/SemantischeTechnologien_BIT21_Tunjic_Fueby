@@ -1,4 +1,3 @@
 # SemantischeTechnologien
 SPARQL-Query
 
-Test
