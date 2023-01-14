@@ -1,3 +1,3 @@
 # SemantischeTechnologien
 
-Zum dokument (lesend): https://de.overleaf.com/read/xtzxfdwfsmyc
+Zum dokument (readonly): https://de.overleaf.com/read/xtzxfdwfsmyc
