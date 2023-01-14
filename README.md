@@ -1,3 +1,3 @@
 # SemantischeTechnologien
-SPARQL-Query
 
+Zum dokument (lesend): https://de.overleaf.com/read/xtzxfdwfsmyc
