@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<people>
+    <!-- That's me -->
+    <person id="1">
+        <fullname>
+            <firstname>Josip</firstname>
+            <lastname>Tunjic</lastname>
+        </fullname>
+    </person>
+    <person id="2">
+        <fullname>
+            <firstname>Michael</firstname>
+            <lastname>Füby</lastname>
+        </fullname>
+    </person>
+</people>
