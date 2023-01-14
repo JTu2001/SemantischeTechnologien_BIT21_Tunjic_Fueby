@@ -1,0 +1,18 @@
+<shipments xmlns:jt="http://www.josiptunjic.com/equipment" xmlns:mf="http://www.michaelfueby.com/tools">
+    <shipment id="LCF-1209">
+        <jt:flashlight amount="1"/>
+        <jt:screwdriver amount="4"/>
+        <mf:screwdriver amount="1"/>
+    </shipment>
+    <shipment id="BDE-7965">
+        <jt:screws amount="23"/>
+        <jt:tape amount="12"/>
+        <jt:tube amount="20" length="30cm"/>
+        <jt:tube amount="15" length="50cm"/>
+        <mf:drill amount="1"/>
+    </shipment>
+    <shipment id="AXC-5060">
+        <mf:hammer amount="2"/>
+        <mf:wrench amount="1"/>
+    </shipment>
+</shipments>
