@@ -1,0 +1,512 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#"
+     xml:base="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#contains -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#contains"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Alkalai_metals -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Alkalai_metals">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Chemical_Elements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Aluminum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Aluminum">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Post-Transition_metals"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Antimony -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Antimony">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Metalloids"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Argon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Argon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Noble_gases"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Boron -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Boron">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Metalloids"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Carbon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Carbon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Other_nonmetals"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Carbon_dioxide -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Carbon_dioxide">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Gases"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#contains"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Carbon"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#contains"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Oxygen"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Chemical_Elements -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Chemical_Elements"/>
+    
+
+
+    <!-- http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Ethanol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Ethanol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Liquids"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#contains"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Oxygen"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#contains"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Carbon"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#contains"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">6</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Hydrogen"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Gallium -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Gallium">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Post-Transition_metals"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Gases -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Gases"/>
+    
+
+
+    <!-- http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Helium -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Helium">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Noble_gases"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Hydrogen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Hydrogen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Other_nonmetals"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Krypton -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Krypton">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Noble_gases"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Lead -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Lead">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Post-Transition_metals"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Liquids -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Liquids"/>
+    
+
+
+    <!-- http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Lithium -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Lithium">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Alkalai_metals"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Metalloids -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Metalloids">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Chemical_Elements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Methane -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Methane">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Gases"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#contains"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Carbon"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#contains"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">4</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Hydrogen"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Neon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Neon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Noble_gases"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Nitrogen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Nitrogen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Other_nonmetals"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Noble_gases -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Noble_gases">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Chemical_Elements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Other_nonmetals -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Other_nonmetals">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Chemical_Elements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Oxygen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Oxygen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Other_nonmetals"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Phosphorus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Phosphorus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Other_nonmetals"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Post-Transition_metals -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Post-Transition_metals">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Chemical_Elements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Potassium -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Potassium">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Alkalai_metals"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Propane -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Propane">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Gases"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#contains"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Carbon"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#contains"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">8</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Hydrogen"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Propanol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Propanol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Liquids"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#contains"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Oxygen"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#contains"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Carbon"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#contains"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">8</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Hydrogen"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Radon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Radon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Noble_gases"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Selenium -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Selenium">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Other_nonmetals"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Silicon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Silicon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Metalloids"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Sodium -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Sodium">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Alkalai_metals"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Sulfur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Sulfur">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Other_nonmetals"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Sulfur_dioxide -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Sulfur_dioxide">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Gases"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#contains"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Sulfur"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#contains"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Oxygen"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Tin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Tin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Post-Transition_metals"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Water -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Water">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Liquids"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#contains"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Oxygen"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#contains"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Hydrogen"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Xenon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Xenon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Noble_gases"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Aluminum"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Gallium"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Lead"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Tin"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Antimony"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Boron"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Silicon"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Argon"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Helium"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Krypton"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Neon"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Radon"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Xenon"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Carbon"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Hydrogen"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Nitrogen"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Oxygen"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Phosphorus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Selenium"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Sulfur"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Lithium"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Potassium"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/josiptunjic/ontologies/2023/0/untitled-ontology-5#Sodium"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
